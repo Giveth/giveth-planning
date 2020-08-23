@@ -4,11 +4,27 @@
 
 
 Sunday 17:00 Berlin // set up as weekly
-- Go through technical planning below
+- Share DEV progress
 - GitHub issue cleaning
+- Share outlook on next sprint (what issues, projection and time commitment)
 
+---
+## Notes for DEV Call of 16/08/2020
 
+### Dev Progress
+- James worked on the GraphQL server, basically ready for MVP
+- Amin looked at image uploader services (will implement IPFS service and push within next days)
+- Bryan is almost done with create project flow and will issue PR soon
+- Kay implemented sourcecred for GitHub and Discord. We need to work on weighting for it to be useful (see https://cred.giveth.io)
+- Matteo will take on the Donation Flow epic
+---
+## Notes for DEV Call of 26/07/2020
 
+- not much progress on frontend this week, more elements for homepage - still not done
+- Amin finishes Tor.us embed integration and opened a new PR for @jamespfarrell to review
+- Kay will continue working on frontend, Amin will pick an issue to work on (likely project view filtering)
+- Gus takes charge of compiling info to guide contributors and development in general across Giveth and The Commons Stack
+- Whitelabel versions will be feature-heavy. Currently two different ones are talked about (Panvala and https://gaiaprotection.com/)
 ---
 ## Giveth2 - technical planning
 
