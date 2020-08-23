@@ -1,5 +1,8 @@
 # DEV Call
 
+[![hackmd-github-sync-badge](https://hackmd.io/Qqhlz_EYQH-J8aXTgeqCWg/badge)](https://hackmd.io/Qqhlz_EYQH-J8aXTgeqCWg)
+
+
 Sunday 17:00 Berlin // set up as weekly
 - Go through technical planning below
 - GitHub issue cleaning
