@@ -9,6 +9,17 @@ Sunday 17:00 Berlin // set up as weekly
 - Share outlook on next sprint (what issues, projection and time commitment)
 
 ---
+## Notes for DEV Call of 23/08/2020
+- Kay is on last stretch of vacation, so assigned issues come next week
+- Bryan is making good progress. Needs someone to look through PRs, bug with validation. Will schedule with Kay and Mateo to go through PR. Should be finished by Friday. Awesome!
+- Mateo was able to set up project from guides. Solved on frontend and needs help with integration into backend. Needs invite to repo to make PR. Was looking at codebase and has some suggestions. Starting with replacing PNGs with SVGs.
+- Amin implemented IPFS image upload. Is done client-side, but should be sent on to backend.
+
+- To-do: Create an issue to replace PNG illlustrations with vector images (SVGs)
+
+### Dev Progress
+
+---
 ## Notes for DEV Call of 16/08/2020
 
 ### Dev Progress
