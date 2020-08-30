@@ -8,6 +8,19 @@ Sunday 17:00 Berlin // set up as weekly
 - GitHub issue cleaning
 - Share outlook on next sprint (what issues, projection and time commitment)
 
+--
+## Notes for DEV Call of 30/08/2020
+- Kay reviewed Bryan's contribution, did some issue cleaning, deployed new sourcecred (cred.giveth.io), did start code work on localhost
+- Bryan's update: Has a complete branch with Create a Project epic (https://github.com/Giveth/giveth-2/tree/dev/create-project-flow-epic). Kay will review and merge so we can test. Final remaining step is to make the call to GraphQL to save the project and fix any bugs.
+- Mateo: Call with Willy, private issues so not much progress this week, James accepted backend PR for FIAT donation flow, help invetigate integration for Paypal or similar, SVG transformation is in progress. Will wait for Bryan's PR for SVG (Kay will ping)
+- James: Wants to realize staging with Kay, need to schedule call
+- Amin: 
+- Willy: Update board
+
+To-Do
+- Set up the backend for a staging environment for testing new features (https://github.com/Giveth/giveth-2/issues/88)
+- Customize weight configurations in cred.giveth.io; Schedule meeting for Giveth 2 members and Hamad to determine optimal weight config. Propose to DAO before merging.
+- 
 ---
 ## Notes for DEV Call of 23/08/2020
 - Kay is on last stretch of vacation, so assigned issues come next week
