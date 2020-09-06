@@ -7,8 +7,22 @@ Sunday 17:00 Berlin // set up as weekly
 - Share DEV progress
 - GitHub issue cleaning
 - Share outlook on next sprint (what issues, projection and time commitment)
+---
+## Notes for DEV Call of 05/09/2020
+- Check out the new staging environment! (h/t @geleeroyale) https://staging.giveth.io/
+- New process for reviewing and merging PRs: feature-branch -> staging -> master
+- Mateo was able to replace some PNGs with SVGs. Some of the SVGs were not rendering properly. Mateo will make a PR to update the images that rendered correctly, and Kay will update the remaining images in the future.
+- Mateo will make a PR to update the style of the Project Cards.
+- Amin completed image upload functionality on the client side. Projects can upload a photo to IPFS in the project creation flow. *Still needs to be implemented in the project creation flow
+*We are using pinata's IPFS service for this. This gives us 1GB of storage for free, after that we should pay
+- Marko and Willy had a call. Shared doc from this in chat. Talked about settings. Required: Send funds example (should we just let app.tor.us pop up). Can we get the same private key in our dapp that they get in app.tor.us - torus embed could give us required functionality. (Amin explains drawback: behaviour of torus should be considered in our tx. rewrite functionality that use transactions for embed.)
 
---
+To-Do
+- Amin to create a ticket to move image upload functionality to server side so we're not exposing our pinata/IPFS key.
+- Ping Bryan about implementing the pinata image upload functionality in the 
+- Project creation flow: Need the 'Confirm' and High Five' page along with the publishing the project to the backend
+
+---
 ## Notes for DEV Call of 30/08/2020
 - Kay reviewed Bryan's contribution, did some issue cleaning, deployed new sourcecred (cred.giveth.io), did start code work on localhost
 - Bryan's update: Has a complete branch with Create a Project epic (https://github.com/Giveth/giveth-2/tree/dev/create-project-flow-epic). Kay will review and merge so we can test. Final remaining step is to make the call to GraphQL to save the project and fix any bugs.
