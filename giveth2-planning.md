@@ -8,6 +8,14 @@ Sunday 17:00 Berlin // set up as weekly
 - GitHub issue cleaning
 - Share outlook on next sprint (what issues, projection and time commitment)
 ---
+## Notes for DEV Call of 13/09/2020
+- All PRs have been approved and merged!
+- Amin, Mateo, Bryan: Please test your changes in prod and ensure they are still working as intended
+- There is a bug in staging where users cannot sign in. Need to debug this. A request is being made for the $walletaddress and the response is causing an error.
+- Next step: finalize project create flow so that projects are saved after creation. Bryan is working on this along with the High Five success page and the Project View page. (https://github.com/Giveth/giveth-2/pull/103)
+- Willy worked with Mateo on donate fiat workflow. working with marko on more mockups. Use stripe to simply donate fiat.
+- Mateo has a friend who wants to take on some backend development. He is badass. Wants to help us with stuff like graphql integration with stripe. auto creation of market place i.e.
+---
 ## Notes for DEV Call of 05/09/2020
 - Check out the new staging environment! (h/t @geleeroyale) https://staging.giveth.io/
 - New process for reviewing and merging PRs: feature-branch -> staging -> master
