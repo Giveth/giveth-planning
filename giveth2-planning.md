@@ -7,6 +7,13 @@ Sunday 17:00 Berlin // set up as weekly
 - Share DEV progress
 - GitHub issue cleaning
 - Share outlook on next sprint (what issues, projection and time commitment)
+## Notes for DEV Call of 20/09/2020
+- We use Stripe Connect Express. Stripe handles KYC. Enables Project bank accounts and accept FIAT donations
+- add create_organization mutaion to backend?
+- Fiat donations and account management: Organizations might have more than one bank account. Lots of variables to talk about in follow up.
+- Camilo created automated stripe customer creation on log-in. Created stripe endpoint that manages communication with stripe and have confirmations, errors about FIAT tranactions.
+- Mateo takes care of frontend for Camilo's work
+- PRs coming from Mateo for frontend and Camilo for the backend server
 ---
 ## Notes for DEV Call of 13/09/2020
 - All PRs have been approved and merged!
