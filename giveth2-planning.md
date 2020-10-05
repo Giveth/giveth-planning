@@ -7,6 +7,48 @@ Sunday 17:00 Berlin // set up as weekly
 - Share DEV progress
 - GitHub issue cleaning
 - Share outlook on next sprint (what issues, projection and time commitment)
+
+## Notes for DEV call 04/10/2020
+
+* Kay: meeting monday. The issue was Epic editing pages. Most links are already up there. Played with wiki 
+* Bryan: started project view making more updates to it making some pages generated during deployment. Check latest branches that has fiat credit card
+* Mateo: finished most of the stripe payment, only missing a webhook, hoping james would jump in.
+* Camilo: 1. Simple flow want to create temporary token 2. Identity of donations now donations are anonymous or require user token 3. Apollo web checking change to apollo express. We should let Camilo and Mateo finish backend.
+* Willy: ask James to explain white labeling and organizations. How to create an organization. 
+
+
+Post MVP, consider migrating from Gatsby to Next.js so front and backend can be bundled together and whitelabeling can be streamlined.
+
+
+
+## Notes for DEV call of 01/10/2020
+* Amin - closed issues related to node gateway. web socket connections were broken. Andre changed config and fixed it. Will handle buttons this week. Questions about mobile view. was occupied this week, needs help with leaderboard. Adding PAN moved to beta and needs to be tested.
+* Andre - Adding tokens in beta server. looking for contract address in forwarding address. Need to test "In Progress" issues so it doesnt break system.
+* Hadai - question about 1459 button off center. if button is moved to right, button is not in the center. No progress on issue cleanup task. Will implement #1413 tomorrow finally.
+* Griff - closed #1459 and made it part of #1376 #1214 moved to sprint backlog because of low priority. 
+* Benjamin - testing adding PAN to Dapp with Amin.
+
+## Notes for DEV  Sprint Call of 28/09/2020
+- Amin is going to take ownership of the Topia backend, specifically mapping new features in front end to backend. Next step is connecting the project creation flow to the backend.
+- Mateo and Camillo are aiming to finish the 'Donate Fiat' flow this week
+- New issue: Replace Tor.Us direct auth integration with Tor.us wallet integration
+- New design needs: Show projects their donation address in the project creation flow (maybe the high five screen?) Give 'crypto savvy' projects the ability to 'Edit' their donation address. Give 'crypto noobie' projects a path to learn more about their new donation address and how it works.
+- Time zones:
+    - Ben: Virginia (GMT -5)
+    - Mateo: Columbia (GMT -7)
+    - Camillo: Columbia (GMT -7)
+    - Bryan: East Africa (GMT +3)
+    - Amin: Iran  (GMT+3.3)
+    - Kay: Austria (GMT +2)
+
+## Notes for DEV Call of 27/09/2020
+- Attending: Kay, Amin, Benjamin (Socretes), Mateo, Willy
+- Staging is great again! Login is fixed: staging.giveth.io
+- Gatsby handles env variables in a unique way. Kay needs to investigate and will report back.
+- Mateo: Made a PR for donation flow earlier in the week. Need access to official account for Stripe Connect. 
+- Amin: Amin is back! Will be working on some v2 issues this week
+- 
+
 ## Notes for DEV Call of 20/09/2020
 - We use Stripe Connect Express. Stripe handles KYC. Enables Project bank accounts and accept FIAT donations
 - add create_organization mutaion to backend?
