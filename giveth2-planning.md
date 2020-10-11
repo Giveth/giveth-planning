@@ -8,6 +8,33 @@ Sunday 17:00 Berlin // set up as weekly
 - GitHub issue cleaning
 - Share outlook on next sprint (what issues, projection and time commitment)
 
+## Notes for DEV CALL 11/10/2020
+* Ben: Organizing dev meetings. Donation executive summary material creation with Dani. Distracted by markets. Intentions listen to updates and take notes.
+* Mateo: Excited to have started work on last Friday. Busy with donation flow. Need PDF receipt for fiat donations. Will make issue and ask Marco for design. Donation history is next in line. Intention is to dive fully into things this week.
+* Bryan: Working on account page. Intention is to get updated.
+* Amin: Pushed tor.us embed. Error when building with Gatsby. Tries to fix.
+* Kay: did mostly build stuff set up source cred. maintaining bridges because discord changed some stuff. Still hogging low hanging fruit issues promise to be ready soon. Crazy week. Left some questions in figma for marco and willy and got some responses from Marco some things to decide so will keep adding to questions. Info pages about Giveth which did not change the text. Heavily distracted, intentions are to still follow meeting. 
+
+#31 want to implement search using Minisearch. Assigned to Amin.
+#61 Project View Mateo asked Bryan about implementation. Bryan needs to know what to do to generate the slug. Needs to generate projects.  Markup in gastby node file. 
+#120 bryan will investgiate
+Kay will build front end info pages like About Us and FAQ from Figma. 
+
+Bryan and Amin are generating pages based on Gatsby files. When you want to create a new page. Gasby has templates you can use so without templates using from a slug to rehydrate. 
+
+Mateo forked the previous Impact Graph repository which has all implementation of stripe. Will try and make a pull request and so will Kay. 
+
+Kay: Please don't push anything yet just create a pull request. 
+
+## Notes for DEV CALL 07/10/2020
+
+* Amin: changed Torus wallet to standard wallet. asked user to sign message with private key.  popup will be shown  
+* Kay: do we really want search on the FAQ pages. will do the pixel for vector graphics 
+* Reoganize ZenHub to correct flow. Bring up ideas in Discord.
+* Proposal for work sprints to deliver work. 
+* Mateo: needs a lot of changes in the backend, make the screen actually synchronized
+* 
+
 ## Notes for DEV call 04/10/2020
 
 * Kay: meeting monday. The issue was Epic editing pages. Most links are already up there. Played with wiki 
