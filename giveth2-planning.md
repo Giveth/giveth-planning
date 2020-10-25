@@ -7,6 +7,75 @@ Sunday 17:00 Berlin // set up as weekly
 - Share DEV progress
 - GitHub issue cleaning
 - Share outlook on next sprint (what issues, projection and time commitment)
+- 
+
+## Notes for DEV CALL 11/25/2020
+
+
+Attending:
+
+Check ins:
+Amin, Mateo, Benjamin, Kay, Mateo, Camilo, WIlly, Griff
+
+Using hackMD for Notes and agenda instead of google docs.
+
+Mateo: participating in hackathon
+Kay: not much news since wednesday did switch out graphics and names for pages biggest thing on todo list and backend
+was very interested in codebase 
+
+Camilo: working with matthew on webflow on fiat flow and project slug no more distractions no more updates
+Griff no major updates no distrcations 
+
+Mateo: already downloaded it to computer needs some changes to environment variables. some changes in environment backend to localhost. Mentioned to James that camilo made some changes. Now only need to be a user to make a project. if you comment those lines it will break. it didnt work when they made a PR.
+
+we are having a token when having a user.
+
+better when making changes on repo because of sourcecred. Camilo does a lot of work but not sure it's measured somewhere.
+
+
+Camilo: who can make a project and that is supposed to be a token. 
+
+Enviornment variables and API keys we have prod for Stripe. Now we can test doing a real donation and receive it in the SDG impact fund bank account. 
+
+Should we use production keys or development keys? even when using prod keys you can make test transactions.
+
+Willy: We got bank account enabled. next day Stripe: your account has been closed because of crowdfunding. Willy is back and fourth with Stripe to be reenalbed. 
+
+Not planning for failure yet!
+
+We have disabled the application. Have no implemented 
+
+Talked to Bryan on Friday about PDF generation, was worried if he made big updates 
+
+Meeting recording: what about using YouTube?
+
+Griff has someone on UpWork to standardize streaming
+
+*Ben will talk to Kay about meeting streaming/recording*
+
+mateo is working on graphql. donate fiat Epic is moved to Review/QA.
+
+need to set up an issue to make the backend points 
+
+
+
+
+## Notes for DEV CALL 11/18/2020
+
+Notes are also on https://docs.google.com/document/d/1EQKAGlxM-xH2hbq3AzE540iaRhF1i84Fnsx-rLf6Ggw/edit?usp=sharing    
+
+#144 donation flow that is almost done after both of those parts are done we should be a qa for the MVP for a basic version. revising all the design after the "my account" is complete and "project details" 
+#141 authentication is a complete mess
+
+Kay: 
+Amin: create page API in gatsby because its a common functionality that's required. 
+
+* need to figure out authentication flow.
+* we should design organization first.
+* Marko is the best to figure it out.
+* 
+
+Search Algolia: plugin with gastby, really good search 
 
 ## Notes for DEV CALL 11/10/2020
 * Ben: Organizing dev meetings. Donation executive summary material creation with Dani. Distracted by markets. Intentions listen to updates and take notes.
