@@ -3,13 +3,25 @@
 [![hackmd-github-sync-badge](https://hackmd.io/Qqhlz_EYQH-J8aXTgeqCWg/badge)](https://hackmd.io/Qqhlz_EYQH-J8aXTgeqCWg)
 
 
-Sunday 17:00 Berlin // set up as weekly
+Sunday and Wednesday 17:00 CET (Berlin) // set up as weekly
 - Share DEV progress
 - GitHub issue cleaning
 - Share outlook on next sprint (what issues, projection and time commitment)
-- 
 
-## Notes for DEV CALL 11/25/2020
+## Notes for DEV CALL 20/12/2020
+
+- Mateo mentions problem with creating projects currently
+- Circle CI failed to build, Amin was looking at it. Once git credentials were updated the build was working.
+- Mateo added lots of visual updates on likes, updates, fixes, address display. Missing alerts, optimization with impact-graph following.
+- Requesting for early (internal) user testing and collection of questions for faq.
+
+
+## Notes for DEV CALL 16/12/2020
+
+Mateo dropped SSR in favor of client side rendering. Network indicator will show tor.us network (account page). Donations will remember choice of user.
+Amin is working on API for currency conversion. Unsure how to secure access at this point.
+
+## Notes for DEV CALL 25/11/2020
 
 
 Attending:
@@ -60,7 +72,7 @@ need to set up an issue to make the backend points
 
 
 
-## Notes for DEV CALL 11/18/2020
+## Notes for DEV CALL 18/11/2020
 
 Notes are also on https://docs.google.com/document/d/1EQKAGlxM-xH2hbq3AzE540iaRhF1i84Fnsx-rLf6Ggw/edit?usp=sharing    
 
