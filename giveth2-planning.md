@@ -5,8 +5,146 @@
 
 Sunday and Wednesday 17:00 CET (Berlin) // set up as weekly
 - Share DEV progress
-- GitHub issue cleaning
-- Share outlook on next sprint (what issues, projection and time commitment)
+- GitHub issue cleaning (process `new issues`, look at `in progress` and assign, review `review and QA`, close `done` issues)
+- Saturday: Plan weekly sprint (what issues, projection and time commitment)
+- Wednesday: Evaluate sprint progress and talk about implementation details and pain points
+
+## Notes for DEV CALL 07/02/2021
+
+### Updates
+James - Migrations for database, fix bugs with metamask donations when logged in with tor.us
+Mateo - Changes donation flow. Now checks for way the user is logged in as default and other wallets optional. Some issues with wallets fixed. Network connection indicator. Needs to do still: Event that catches if Metamask is on wrong network. After that will look out for more issues in ZenHub.
+Kay - Change landing page content [here](https://raw.githubusercontent.com/Giveth/giveth-2/staging/src/content/giveth.md)
+
+### Softlaunch
+- We need a way for users to delete campaigns!
+- We need to speed up build time. A good way to do this is described in #484
+
+
+## Notes for DEV CALL 03/02/2021
+
+### Updates
+
+Mateo-metamask and torus integration, made login smoother. currently working on wallet notifications
+
+James-working on authentication issue and login 
+
+Amin- no real updates
+
+Mitch- ready for testing
+
+Lauren- ready for testing 
+
+Forest- orgazational guru
+
+Kay- merged changes to master,
+
+Marco- no real updates
+
+Dani- ready for testing
+
+
+Agenda:
+- evaluate last changes
+James working on authentication login issue from last broken testing session
+
+- notes for testers
+
+use staging.giveth.io this week
+We will also soon test v2 on mainnet for soft launch
+next week it will be on giveth.io and it will be announced to test there or move giveth1 projects
+
+user and developers testing needed
+
+- check "Last before MVP sprint" milestone
+- assign and discuss new issues
+
+https://github.com/Giveth/giveth-2/issues/452 - Mateo,Marco - how to prioritize using the wallet users are logged in as. add a notice above the donate button
+
+https://github.com/Giveth/giveth-2/issues/386 - James and Kay
+
+banner for soft launch is done - Mateo
+
+https://github.com/Giveth/giveth-2/issues/454- Dani - pop up for firsttime users- if a user has been logged in then how do they choose their previous user account. do we have a 'remember me? option'? if you return, you should be logged in. fast follow/ice box
+
+https://github.com/Giveth/giveth-2/issues/435 - Mateo - fiat onramp, donating crypto still? will it be on the crypto ledger?
+can we know and have a transcation i.d.? fiat donations have a fee, and currently we advertise not having fees. fiat fees need clarity that they are not giveth fees
+
+https://github.com/Giveth/giveth-2/issues/436- James, Kay- graphQL endpoints pants down? currently anyone can run queries.
+engineX configurations expert would be helpful
+
+- LAST SPRINT before soft launch
+
+we have many issues that do not have anyone assigned, though we have plenty to do.
+Whatever is in backlog and progress is good for MVP
+bug fixes only now please
+
+Reminders:
+
+Need to choose a feature completeness lockdown
+Do not use v2 for testing right now, use staging.giveth.io
+When we are live on soft launch will need to test mainnet v2
+
+
+Landing page textblock put into Contentful? or Markdown file?
+if we use markdown and github we can allow for more editors. Contentful has limited available users. Github also comes with SourceCred ease.
+
+We use Contentful for the FAQ.  if you want to be added to the Contentful profile page, send Kay one Picture and bonus points for some social links
+
+FAQ needs more help on hackmd. Dani needs to transfer some content from google docs.
+
+Where is our central note taking space? We are spread between Notion and hackmd
+share links to all platforms between them
+markdown is handy for wiki, docs, and is connected to Github
+
+
+## Notes for DEV CALL gaps 31/01/2020 to 03/02/2021 need transfer from Notion?
+
+## Notes for DEV CALL 31/01/2020
+
+### Updates & Login/Wallet Flow Discussion
+Mateo - James implemented a check if user has metamask installed and falls back to tor.us
+James - User should not be able to create project before profile is updated. We should change the flow accordingly. If Metamask is not installed it should automatically default to torus sign-in. If Metamask IS installed we should show onboard.js (might be complicated). Alternative - NO MM installed we show Tor.us, when MM installed show selection menu like now.
+Dani - Tor.us does have some pitfalls when it comes to that login procedure (i.e. she expected a different social login to use the same wallet but it creates a different one). Another thing - "My Projects" should also contain projects the user donated to.
+Willy - Will present it at ETH Denver on Wednesday!! There should be a banner at the top that we are in softlaunch.
+
+To summarize the rest of the call - we talked a lot about the wallet and login flow and spent some minutes looking at various UX issues. We fixed to softlaunch to giveth.io on Tuesday 02nd February 2021 - ideally 24 hours before Willy presents it at ETH Denver.
+
+
+## Notes for DEV CALL 27/01/2020
+
+### Notes
+
+James: Refactor of Authentication is done
+Mateo: Implement other User public profile view, missing mutation on impact-graph for user account (issue follows)
+For Tester: Login, Logout, Refresh, try to break it
+
+
+## Notes for DEV CALL 24/01/2020
+
+### Agenda
+- Roadmap and go live tomorrow?
+- Authentication refactor - is supernice now but would push softlaunch out for at least one more week
+
+
+## Notes for DEV CALL 20/01/2020
+- State of giveth2 looking good
+- some things still to optimize, i.e. gracefully recovering from errors, trying to add ramp.network as FIAT provider
+
+## Notes for DEV CALL 10/01/2020
+
+### Agenda
+
+- Torus embed
+    - support from Torus - domain prefix signing functionality
+- Multiple wallets
+
+### Notes
+
+
+## Notes for DEV CALL 30/12/2020
+- If Camilo is available he is happy to work on issues. 
+
 
 ## Notes for DEV CALL 20/12/2020
 
