@@ -1,8 +1,5 @@
 # giveth-planning
-This repository is used for planning Giveth software and DAO projects. Please have a look at the ZenHub board to access issues
+WE'RE MOVING THIS TO NOTION -> https://www.notion.so/giveth/d43ba90865ae430e982ac2eda39e103e?v=8ece43d3a2db4b6191d1bde4056e1f1a
 
-## Notes
-We use a hackmd integration to collaboratively write notes during conference calls:
-- Giveth2 DEV Call [![hackmd-github-sync-badge](https://hackmd.io/Qqhlz_EYQH-J8aXTgeqCWg/badge)](https://hackmd.io/Qqhlz_EYQH-J8aXTgeqCWg)
-- [Giveth2 Weekly Sync Notes](https://docs.google.com/document/d/1KLA_--nbH7AWTBj0oArFj5pX0pxwentvFoopXP3xosg/edit?usp=sharing)
+PLEASE CREATE YOUR COMMS & MARKETING ISSUES THERE FROM NOW ON
 
